@@ -85,6 +85,7 @@ class ExerciseItem(BaseModel):
     sets: int
     reps: int
     rest_seconds: int
+    progression_note: str
 
 
 class DayPlan(BaseModel):
